@@ -1,0 +1,57 @@
+/* Relative positioning in CSS */
+.top-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 400px;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    bottom: 200px;
+    
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+}
+/* Absolute positioning in CSS */
+body{
+    margin: 0px;
+}
+
+.Absolute-top-container{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.Absolute-middle-container{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.Absolute-bottom-container{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
