@@ -12,5 +12,27 @@ Q2. Use typeOf operator to find the data type of the string in last question
 console.log(typeof result); // String
 
 /*
-Q3. Use typeOf operator to find the data type of the string in last question
+Q3. Create a constant object in js can you change it to hold a number later
 */
+const student = {
+    name: "Krish",
+    RollNo : 21,
+    Sec : 'A'
+}
+
+/*
+Q4. Try to add a key to the const object in problem 3 were you able to to do it.
+*/
+student['Enemy'] = "Kansh";
+console.log(student);
+
+/*
+Q5. Try to add a key to the const object in problem 3 were you able to to do it.
+*/
+const dictionary = {
+    "Bramha" : "Generator",
+    "Vishnu" : "Operator",
+    "Maheswar" : "Destroyer"
+}
+console.log(dictionary.Vishnu);
+
