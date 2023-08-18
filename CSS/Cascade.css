@@ -1,0 +1,39 @@
+.container{
+    background-color: violet;
+    height: 400px;
+    padding: 10px;
+}
+.container2{
+    background-color: blue;
+    
+    height: 400px;
+}
+
+.yellow-text{
+    color: yellow;
+    font-size: 40px;
+}
+.white-text{
+    color: white;
+    font-size: 40px;
+}
+
+.firstcontainer{
+    
+    padding: 10px;
+}
+
+/* .secondcontainer{
+    padding: 10px;
+} */
+.secondcontainer > .yellow-text{
+    color: black;
+}
+
+div > h1{
+    background-color: yellow;
+}
+
+div h1 {
+    background-color: black;
+}

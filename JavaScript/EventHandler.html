@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Handler</h1>
+    <p id="abc" onclick="changeContent()">Welcome</p>
+    <script>
+        let p1 = document.getElementById("abc");
+        p1.onclick = function changeContent(){
+            p1.style.backgroundColor = "Yellow";
+        }
+    </script>
+</body>
+</html>

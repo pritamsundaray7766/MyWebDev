@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        In JS there are 5 types of loops
+        1.for loop -> loops a block of code a no. of times
+        2.for in loop -> loops through the keys of an object
+        3.for of loop -> loops through the values of an object
+        4.while loop -> loops a block of code based on a specific condition
+        5.do-while loop -> while loop variant which runs atleast once
+        */
+
+        // for loop
+        /*
+        for(let i = 1; i<10 ; i++){
+            alert("Welcome to The Codex Web");
+        }
+        */
+
+        //for in loop
+        /*
+            const obj = {
+                Pritam : 33,
+                Satyam : 55,
+                Bibhu : 77
+            }
+            for(let a in obj){
+                document.write("marks of  " + a + " are " + obj[a]);
+            }
+        */
+
+        // for of loop
+        // /*
+
+        // */
+
+        //while loop
+        /*
+        let n = prompt("Enter a number")
+        n = Number.parseInt(n);
+        let i = 0;
+        while(i<n){
+            document.write(i);
+            i++;
+        }
+        */
+
+        //do-while loop
+
+        let n = prompt("enter a number");
+        n = Number.parseInt(n);
+        let i = 0;
+        do{
+            document.write(i);
+            i++
+        }while(i<n);
+    </script>
+</body>
+</html>

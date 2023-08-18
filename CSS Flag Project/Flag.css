@@ -1,0 +1,37 @@
+.orange{
+    position: relative;
+    left: 480px;
+    background-color: orange;
+    height: 150px;
+    width: 600px;
+}
+
+.white{
+    position: relative;
+    left: 480px;
+    background-color: white;
+    height: 150px;
+    width: 600px;
+}
+
+.green{
+    position: relative;
+    left: 480px;
+    background-color: green;
+    height: 150px;
+    width: 600px;
+}
+
+.ashok-chakra{
+    position: relative;
+    left: 225px;
+    height: 150px;
+    width: 150px;
+}
+
+.main-heading{
+    position: relative;
+    left: 20px;
+    font-size: 50px;
+    text-align: center;
+}

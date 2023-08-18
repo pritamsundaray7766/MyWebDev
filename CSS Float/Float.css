@@ -1,0 +1,30 @@
+.cat{
+    /* height: 300px; */
+    width: 40%;
+    display: inline-block;
+    background-color: aquamarine;
+}
+.dog{
+    float: right;
+    /* display: inline-block; */
+    /* height: 300px; */
+    width: 40%;
+    background-color: orange;
+}
+
+.first-paragraph{
+   font-size: 30px;
+}
+
+.second-paragraph{
+   font-size: 30px;
+}
+footer{
+    clear: right;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+img{
+    float: left;
+}

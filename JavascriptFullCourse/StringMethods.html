@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // String methods
+
+        // length of a string
+        let str = "The Codex Web";
+        document.write(str.length);
+
+        // If we use escape sequence character the js only exclude the '\' and return the length of the string
+        let str2 = 'Welcome to Pritam\'s website';
+        document.write( str2.length);
+
+        // toUpperCase()
+        document.write(str2.toUpperCase());
+
+        //toLowerCase()
+        document.write(str2.toLowerCase());
+
+        // slice(index1 , index2)
+        let str3 = "Pritam is a good web developer"
+        document.write(str3.slice(2,4)); // the slice method is only returning the string starting from 2nd index to 4th index but not including the 4th character
+
+        // slice(index1)
+        document.write(str3.slice(2)); // it returns the string strating from the index 2 to end
+
+        // replace()
+        document.write(str3.replace("good","best"));
+
+        // concat("any string")
+        document.write(str2.concat("                     ",str3,"                              ", "is a good example"));
+
+        //  trim()
+        let name = "             Pritam               ";
+        document.write(name.trim());
+
+
+        // Traverse through all the characters in the string using for loop
+        let name2 = "Pritam";
+        for(let i = 0; i<name2.length ; i++){
+            document.write(name2[i] + " "); 
+        }
+    </script>
+</body>
+</html>

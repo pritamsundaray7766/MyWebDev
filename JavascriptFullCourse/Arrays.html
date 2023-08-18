@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Arrays in JS
+        let arr = [45,89,23,34.5,"Pritam", false];
+        console.log(arr[0]);
+        console.log(arr[1]);
+         console.log(arr[2]);
+        console.log(arr[3]);
+        console.log(arr[4]);
+        console.log(arr[5]);
+        console.log(arr[6]); // it showing undefined because there is no element i  6Th index
+         arr[7] = 47;
+         console.log(arr[7]); // adding a new value to the array
+         arr[3] = 36;
+         console.log(arr[3]); // edit an element in array
+
+
+         // Traversing the array using for loop
+         for(let i = 0; i<arr.length ; i++){
+            document.write(arr[i] + " ");
+         }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="hello">Hello Everyone</p>
+    <script>
+        let p1 = document.getElementById("hello");
+        alert(p1.innerHTML);
+
+        p1.innerHTML = "Welcome to The Codex Web";
+        p1.style.color = "red";
+
+        p1.onclick = function(){
+            /*
+            this code will be executed when the element is clicked
+            */
+            alert("The element is clicked");
+        }
+    </script>
+</body>
+</html>

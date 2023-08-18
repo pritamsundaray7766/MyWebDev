@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+    
+}
+p{
+    margin: 0px;
+}
+
+.div1{
+    background-color: aqua;
+    border: 10px solid black;
+    padding: 20px;
+}
+
+.div2{
+    background-color: green;
+    border: solid black ;
+    border-width: 20px 10px;
+    margin-left: 260px;
+    
+}
+
+.div3{
+    background-color: blueviolet;
+    border: solid black;
+    border-width: 10px;
+    margin-left: 40px;
+}

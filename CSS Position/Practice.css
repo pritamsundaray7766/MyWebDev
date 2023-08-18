@@ -1,0 +1,20 @@
+.container{
+    position: absolute;
+    background-color: blue;
+    height: 300px;
+    width: 500px;
+    top: 200px;
+    left: 200px;
+    
+}
+
+.dot{
+    position: relative;
+    top: 150px;
+    left: 250px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}

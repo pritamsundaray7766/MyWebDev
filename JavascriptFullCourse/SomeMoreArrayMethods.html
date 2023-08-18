@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sortMrthod">
+    <h2>sort()</h2>
+    <p><u>sort()</u> - it is used to sort array elements in a alphabetically sorted array because the sort() method convert the array into a string</p>
+    <script>
+        // sort() - it is used to sort array elements in a alphabetically sorted array because the sort() method convert the array into a string
+        let arr = [9,654,45,866,47,386,2335,7683,36,67,32];
+        arr.sort();
+        document.write(arr);
+    </script>
+    <p><u>For ascending order</u></p>
+    <script>
+        let compare = (a,b) =>{
+            return a -b;
+        }
+         let arr1 = [9,654,45,866,47,386,2335,7683,36,67,32];
+         arr1.sort(compare);
+         document.write(arr1);
+    </script>
+    <p><u>For descending order</u></p>
+    <script>
+        let compare1 = (a,b) =>{
+            return b -a;
+        }
+         let arr2 = [9,654,45,866,47,386,2335,7683,36,67,32];
+         arr2.sort(compare1);
+         document.write(arr2);
+    </script>
+    </div>
+    <div class="reverse">
+        <h2>reverse()</h2>
+        <p><u>reverse()</u> - it is used for reversing a array elements</p>
+        <script>
+            let revArr = [9,654,45,866,47,386,2335,7683,36,67,32];
+            revArr.reverse();
+            document.write(revArr);
+        </script>
+    </div>
+    <div class="slice&splice">
+        <h2>splice() & slice()</h2>
+        <p><u>splice()</u> - It is used for adding new elements to the array</p>
+        <script>
+            let newArr = [1,2,3,4,5];
+            newArr.splice(2,1,23,24); //splice(position(index) to add, no.of elements to add, the elements which are going to be added to the array)
+            document.write(newArr);
+        </script>
+        <p><u>slice()</u> - slice out a piece from the given array and create a new array</p>
+        <script>
+            let newArr1 = [1,2,3,4,5];
+            let newArr2 = newArr1.slice(2); // slice out the elements starting from 2nd to end
+            let newArr3 = newArr1.slice(1,3); //slice out the elements from index 1  to index 2 element
+            document.write(newArr2);
+            document.write(newArr3);
+        </script>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        let num = [1,2,3,4,5,6,7,8,9];
+        // document.write(num.length); // returns the size/length of the array that is 9
+
+        // delete operator - it deletes the specified indexed element from the array and the best part is it does not affect the array length
+        // delete num[4];
+        // console.log(num); // returns 9
+        // document.write(num);
+
+        // concat() - it is used to join two arrays and return a new single array
+        // let num2 = [9,654,45,866,47,386,2335,7683,36,67,32];
+
+        // let newNum = num.concat(num2);
+        // console.log(newNum);
+
+        
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.box{
+    border: dotted 2px rgb(96, 139, 168);
+    width: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+.box>div{
+    box-sizing: border-box;
+    border: solid 2px  rgb(96, 139, 168);
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.red{
+    height: 100px;
+    width
+}
