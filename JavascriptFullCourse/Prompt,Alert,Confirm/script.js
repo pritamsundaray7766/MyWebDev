@@ -11,5 +11,5 @@ let write = confirm("Do you want the number to be printed on the website");
 if(write){
     document.write(" " + num + " ");
 }else{
-    document.write("Please allow me to print the number!");
+    document.write("Please allow me to print the number!!");
 }
